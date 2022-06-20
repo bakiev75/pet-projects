@@ -6,7 +6,7 @@ while True:
 
     while True:
         try:
-            round_ = int(input("Округлить корни до знака (от 1 до 10): "))
+            round_ = int(input("Округлить решение до знака после точки (от 1 до 10): "))
             if 1 <= round_ <= 10:
                 break
             else:
